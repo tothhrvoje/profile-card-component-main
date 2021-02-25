@@ -1,0 +1,19 @@
+.container {
+  height: 100vh;
+  background: $darkCyan;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+
+  .top_left_bckgr {
+    position: absolute;
+    left: -28rem;
+    top: -51rem;
+  }
+  .bot_right_bckgr {
+    position: absolute;
+    left: 69.5rem;
+    top: 37.5rem;
+  }
+}

@@ -1,0 +1,38 @@
+@media only screen and (max-width: 375px) {
+  .container {
+    .top_left_bckgr {
+      left: -73rem;
+      top: -65rem;
+    }
+    .bot_right_bckgr {
+      left: 13rem;
+      top: 30rem;
+    }
+  }
+
+  .main_card {
+    width: 32rem;
+    height: 38rem;
+    .profile_picture {
+      transform: translate(100%, 81%);
+    }
+    .name {
+      margin-left: 9.5rem;
+    }
+    .age {
+      margin-left: 20.8rem;
+    }
+    .location {
+      margin-top: 24.7rem;
+      margin-left: 13.6rem;
+    }
+    hr {
+      margin-top: 29rem;
+    }
+  }
+  .statsContainer {
+    .stats {
+      padding-top: 1rem;
+    }
+  }
+}

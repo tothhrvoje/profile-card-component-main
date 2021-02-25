@@ -1,0 +1,29 @@
+.statsContainer {
+  position: absolute;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  top: 130%;
+  left: 50%;
+  transform: translate(-52%, -50%);
+  width: 35rem;
+  height: 37rem;
+  overflow: hidden;
+
+  .stats {
+    color: $veryDarkDesaturatedBlue;
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding-top: 1.7rem;
+    padding-left: 0.6rem;
+    top: 10rem;
+  }
+  .stats p {
+    color: $darkGray;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top: 0.6rem;
+    padding-right: 0.2rem;
+    letter-spacing: 0.1rem;
+  }
+}

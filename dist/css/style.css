@@ -1,0 +1,183 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans";
+}
+
+.container {
+  height: 100vh;
+  background: #19a2ae;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container .top_left_bckgr {
+  position: absolute;
+  left: -28rem;
+  top: -51rem;
+}
+
+.container .bot_right_bckgr {
+  position: absolute;
+  left: 69.5rem;
+  top: 37.5rem;
+}
+
+.main_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  width: 34.9rem;
+  height: 37rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  -webkit-box-shadow: 7px 9px 20px 0px rgba(0, 0, 0, 0.445);
+  box-shadow: 7px 9px 20px 0px rgba(0, 0, 0, 0.445);
+}
+
+.main_background {
+  background-image: url(/images/bg-pattern-card.svg);
+  height: 14.2rem;
+  width: 36.2rem;
+  position: absolute;
+  left: -1px;
+}
+
+.profile_picture {
+  background-image: url(/images/image-victor.jpg);
+  background-size: cover;
+  width: 10.7rem;
+  height: 10.7rem;
+  position: absolute;
+  -webkit-transform: translate(112%, 81%);
+  transform: translate(112%, 81%);
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.name {
+  color: #2d3248;
+  position: absolute;
+  margin-top: 21.7rem;
+  margin-left: 10.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.age {
+  color: #969696;
+  position: absolute;
+  font-size: 1.8rem;
+  margin-top: 21.7rem;
+  margin-left: 21.7rem;
+}
+
+.location {
+  color: #969696;
+  position: absolute;
+  font-size: 1.9rem;
+  margin-top: 25rem;
+  margin-left: 14.5rem;
+  font-size: 1.4rem;
+}
+
+hr {
+  border-top: 0.1rem solid #969696;
+  position: absolute;
+  margin-top: 28.7rem;
+  width: 50rem;
+}
+
+.statsContainer {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  top: 130%;
+  left: 50%;
+  -webkit-transform: translate(-52%, -50%);
+  transform: translate(-52%, -50%);
+  width: 35rem;
+  height: 37rem;
+  overflow: hidden;
+}
+
+.statsContainer .stats {
+  color: #2d3248;
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding-top: 1.7rem;
+  padding-left: 0.6rem;
+  top: 10rem;
+}
+
+.statsContainer .stats p {
+  color: #969696;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-top: 0.6rem;
+  padding-right: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .container .top_left_bckgr {
+    left: -73rem;
+    top: -65rem;
+  }
+  .container .bot_right_bckgr {
+    left: 13rem;
+    top: 30rem;
+  }
+  .main_card {
+    width: 32rem;
+    height: 38rem;
+  }
+  .main_card .profile_picture {
+    -webkit-transform: translate(100%, 81%);
+    transform: translate(100%, 81%);
+  }
+  .main_card .name {
+    margin-left: 9.5rem;
+  }
+  .main_card .age {
+    margin-left: 20.8rem;
+  }
+  .main_card .location {
+    margin-top: 24.7rem;
+    margin-left: 13.6rem;
+  }
+  .main_card hr {
+    margin-top: 29rem;
+  }
+  .statsContainer .stats {
+    padding-top: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

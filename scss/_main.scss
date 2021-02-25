@@ -1,0 +1,58 @@
+.main_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  width: 34.9rem;
+  height: 37rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 7px 9px 20px 0px rgba(0, 0, 0, 0.445);
+}
+.main_background {
+  background-image: url(/images/bg-pattern-card.svg);
+  height: 14.2rem;
+  width: 36.2rem;
+  position: absolute;
+  left: -1px;
+}
+.profile_picture {
+  background-image: url(/images/image-victor.jpg);
+  background-size: cover;
+  width: 10.7rem;
+  height: 10.7rem;
+  position: absolute;
+  transform: translate(112%, 81%);
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.name {
+  color: $veryDarkDesaturatedBlue;
+  position: absolute;
+  margin-top: 21.7rem;
+  margin-left: 10.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.age {
+  color: $darkGray;
+  position: absolute;
+  font-size: 1.8rem;
+  margin-top: 21.7rem;
+  margin-left: 21.7rem;
+}
+.location {
+  color: $darkGray;
+  position: absolute;
+  font-size: 1.9rem;
+  margin-top: 25rem;
+  margin-left: 14.5rem;
+  font-size: 1.4rem;
+}
+hr {
+  border-top: 0.1rem solid $darkGray;
+  position: absolute;
+  margin-top: 28.7rem;
+  width: 50rem;
+}
